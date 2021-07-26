@@ -1,0 +1,11 @@
+boilr==0.6.1
+numpy==1.15.4
+seaborn==0.11.1
+torch==1.4.0
+torchvision==0.5.0
+matplotlib==3.0.3
+pandas==0.24.1
+scipy==1.1.0
+Pillow==8.2.0
+PyYAML==5.4.1
+scikit_learn==0.24.2

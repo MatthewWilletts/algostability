@@ -1,0 +1,47 @@
+# config file for transfer learning example on CIFAR10
+
+training:
+  batch_size: 128
+  n_epochs: 400
+  n_iters: 5001
+  ngpu: 1
+  snapshot_freq: 2000
+  algo: 'dsm'
+  anneal_power: 2.0
+
+data:
+ dataset: "CIFAR10"
+ image_size: 32
+ channels: 3
+ logit_transform: false
+ random_flip: false
+ random_state: 0
+ split_size: .33
+ on_gpu: true
+
+
+model:
+  sigma_begin: 1
+  sigma_end: 0.01
+  num_classes: 10
+  batch_norm: false
+  ngf: 128
+  final_layer: true
+  feature_size: 50
+  num_components: 128
+  learn_y_prior: false
+  augment: false
+  positive: false
+  architecture: 'rvqvae'
+  decoder_var: 0.01
+  retrain: true
+  pass_through_z: false
+
+optim:
+  weight_decay: 0.000
+  optimizer: "Adam"
+  lr: 0.0005
+  beta1: 0.9
+  amsgrad: false
+
+n_labels: 8
