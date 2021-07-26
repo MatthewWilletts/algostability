@@ -1,12 +1,13 @@
 # I Don't Need u: Identifiable Non-Linear ICA Without Side Information
 ## Dependencies
 
-This repository contains code to run and reproduce the experiments presented in `I Don't Need u: Identifiable Non-Linear ICA Without Side Information`
+This repository contains code to run and reproduce the experiments presented in [I Don't Need u: Identifiable Non-Linear ICA Without Side Information](https://arxiv.org/pdf/2106.05238.pdf)
+
 ## Dependencies
 
 We include a requirements.txt
 
-## Running  experiments
+## Running experiments
 
 These experiments are run through the script `main.py`. Below are details on how to use the script. To learn about its arguments type `python main.py --help`:
 
