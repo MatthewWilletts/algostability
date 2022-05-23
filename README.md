@@ -1,7 +1,7 @@
-# I Don't Need u: Identifiable Non-Linear ICA Without Side Information
+# On Algorithmic Stability in Unsupervised Representation Learning
 ## Dependencies
 
-This repository contains code to run and reproduce the experiments presented in [I Don't Need u: Identifiable Non-Linear ICA Without Side Information](https://arxiv.org/pdf/2106.05238.pdf)
+This repository contains code to run and reproduce the experiments presented in [On Algorithmic Stability in Unsupervised Representation Learning](https://arxiv.org/pdf/2106.05238.pdf)
 
 ## Dependencies
 
